@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    
+    <EditText 
+         android:id="@+id/etSQLName"
+        android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:hint="Assignment Name:"
+        />
+    <EditText 
+         android:id="@+id/etSQLDue"
+        android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:hint="dd/mm/yy:"
+        /> 
+     
+     <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:textSize="20dp"
+     android:text="Edit assignment"
+     android:id="@+id/bEditAssign"
+     ></Button>
+    
+     <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:background="@drawable/delete"
+     android:id="@+id/bDeleteAssign"
+     ></Button>
+</LinearLayout>
